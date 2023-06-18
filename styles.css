@@ -1,12 +1,13 @@
 .navbar-custom {
     background-color: #00ABE4;
-    border-radius: 10px;
+    font-weight: bold;
 }
 
 .card {
     border: 2px solid #000;
     width: 300px;
     margin: 5px;
+    /* min-width: 280px; */
 }
 
 .card .card-description {
@@ -29,7 +30,7 @@
 body {
     background-color: #E9F1FA;
     padding-top: 70px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 
 #section1 {
@@ -46,4 +47,11 @@ body {
 
 h2 {
     margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #00ABE4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
 }
