@@ -1,6 +1,5 @@
-.navbar-custom {
+.Nav-container {
     background-color: #00ABE4;
-    border-radius: 10px;
 }
 
 .card {
@@ -28,5 +27,4 @@
 
 body {
     background-color: #E9F1FA;
-    padding-top: 70px;
 }

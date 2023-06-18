@@ -1,8 +1,3 @@
-.navbar-custom {
-    background-color: #00ABE4;
-    border-radius: 10px;
-}
-
 .card {
     border: 2px solid #000;
     width: 300px;
@@ -28,5 +23,4 @@
 
 body {
     background-color: #E9F1FA;
-    padding-top: 70px;
 }
