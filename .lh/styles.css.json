@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 31,
+            "activePatchIndex": 46,
             "patches": [
                 {
                     "date": 1687098568876,
@@ -132,6 +132,66 @@
                 {
                     "date": 1687109818385,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,5 +41,9 @@\n }\r\n \r\n #section3 {\r\n     margin-bottom: 20px;\r\n+}\r\n+\r\n+h2 {\r\n+    margin-bottom: 10px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687122733341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,5 +45,9 @@\n }\r\n \r\n h2 {\r\n     margin-bottom: 10px;\r\n+}\r\n+\r\n+.footer {\r\n+    background-color: #00ABE4;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687122758001,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n \r\n body {\r\n     background-color: #E9F1FA;\r\n     padding-top: 70px;\r\n-    padding-bottom: 50px;\r\n+    /* padding-bottom: 50px; */\r\n }\r\n \r\n #section1 {\r\n     margin-bottom: 50px;\r\n"
+                },
+                {
+                    "date": 1687122818579,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,5 +49,6 @@\n }\r\n \r\n .footer {\r\n     background-color: #00ABE4;\r\n+    height:auto;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687122837627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n .navbar-custom {\r\n     background-color: #00ABE4;\r\n-    border-radius: 10px;\r\n }\r\n \r\n .card {\r\n     border: 2px solid #000;\r\n"
+                },
+                {
+                    "date": 1687122921134,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,6 +48,6 @@\n }\r\n \r\n .footer {\r\n     background-color: #00ABE4;\r\n-    height:auto;\r\n+    margin: 50px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687122948209,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,6 +48,7 @@\n }\r\n \r\n .footer {\r\n     background-color: #00ABE4;\r\n-    margin: 50px;\r\n+    margin-top: 50px;\r\n+    margin-bottom: 50px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687122962587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,7 +48,7 @@\n }\r\n \r\n .footer {\r\n     background-color: #00ABE4;\r\n-    margin-top: 50px;\r\n-    margin-bottom: 50px;\r\n+    padding-top: 50px;\r\n+    padding-bottom: 50px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687122975741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,7 +48,7 @@\n }\r\n \r\n .footer {\r\n     background-color: #00ABE4;\r\n-    padding-top: 50px;\r\n-    padding-bottom: 50px;\r\n+    padding-top: 10px;\r\n+    padding-bottom: 10px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687123180637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,5 +50,6 @@\n .footer {\r\n     background-color: #00ABE4;\r\n     padding-top: 10px;\r\n     padding-bottom: 10px;\r\n+    min-height: 100vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687123197502,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,6 +50,6 @@\n .footer {\r\n     background-color: #00ABE4;\r\n     padding-top: 10px;\r\n     padding-bottom: 10px;\r\n-    min-height: 100vh;\r\n+    \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687123208684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,7 +49,7 @@\n \r\n .footer {\r\n     background-color: #00ABE4;\r\n     padding-top: 10px;\r\n-    padding-bottom: 10px;\r\n+    padding-bottom: 5px;\r\n     \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687123219057,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,8 +48,8 @@\n }\r\n \r\n .footer {\r\n     background-color: #00ABE4;\r\n-    padding-top: 10px;\r\n+    padding-top: 5px;\r\n     padding-bottom: 5px;\r\n     \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687123825158,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n .navbar-custom {\r\n     background-color: #00ABE4;\r\n+    font-weight: bold;\r\n }\r\n \r\n .card {\r\n     border: 2px solid #000;\r\n"
+                },
+                {
+                    "date": 1687124130757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n .card {\r\n     border: 2px solid #000;\r\n     width: 300px;\r\n     margin: 5px;\r\n+    min-width: 280px;\r\n }\r\n \r\n .card .card-description {\r\n     position: absolute;\r\n"
+                },
+                {
+                    "date": 1687125365697,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n .card {\r\n     border: 2px solid #000;\r\n     width: 300px;\r\n     margin: 5px;\r\n-    min-width: 280px;\r\n+    /* min-width: 280px; */\r\n }\r\n \r\n .card .card-description {\r\n     position: absolute;\r\n"
                 }
             ],
             "date": 1687098568876,
