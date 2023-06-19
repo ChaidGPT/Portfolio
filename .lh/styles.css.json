@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 46,
+            "activePatchIndex": 59,
             "patches": [
                 {
                     "date": 1687098568876,
@@ -192,6 +192,58 @@
                 {
                     "date": 1687125365697,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n .card {\r\n     border: 2px solid #000;\r\n     width: 300px;\r\n     margin: 5px;\r\n-    min-width: 280px;\r\n+    /* min-width: 280px; */\r\n }\r\n \r\n .card .card-description {\r\n     position: absolute;\r\n"
+                },
+                {
+                    "date": 1687145973765,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,13 @@\n     background-color: #00ABE4;\r\n     font-weight: bold;\r\n }\r\n \r\n+.navbar-brand {\r\n+    padding-left: 5px;\r\n+    font-weight: bold;\r\n+}\r\n+\r\n .card {\r\n     border: 2px solid #000;\r\n     width: 300px;\r\n     margin: 5px;\r\n"
+                },
+                {
+                    "date": 1687145989810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     font-weight: bold;\r\n }\r\n \r\n .navbar-brand {\r\n-    padding-left: 5px;\r\n+    padding-left: 10px;\r\n     font-weight: bold;\r\n }\r\n \r\n .card {\r\n"
+                },
+                {
+                    "date": 1687146235534,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n \r\n .navbar-brand {\r\n     padding-left: 10px;\r\n     font-weight: bold;\r\n+    font: cezanne;\r\n }\r\n \r\n .card {\r\n     border: 2px solid #000;\r\n"
+                },
+                {
+                    "date": 1687146308003,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \r\n .navbar-brand {\r\n     padding-left: 10px;\r\n     font-weight: bold;\r\n-    font: cezanne;\r\n+    font-family: Cezanne;\r\n }\r\n \r\n .card {\r\n     border: 2px solid #000;\r\n"
+                },
+                {
+                    "date": 1687146424425,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \r\n .navbar-brand {\r\n     padding-left: 10px;\r\n     font-weight: bold;\r\n-    font-family: Cezanne;\r\n+    font-family: Charter;\r\n }\r\n \r\n .card {\r\n     border: 2px solid #000;\r\n"
+                },
+                {
+                    "date": 1687146448755,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \r\n .navbar-brand {\r\n     padding-left: 10px;\r\n     font-weight: bold;\r\n-    font-family: Charter;\r\n+    font-family: Charter BT;\r\n }\r\n \r\n .card {\r\n     border: 2px solid #000;\r\n"
+                },
+                {
+                    "date": 1687146499631,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \r\n .navbar-brand {\r\n     padding-left: 10px;\r\n     font-weight: bold;\r\n-    font-family: Charter BT;\r\n+    font-family: Pegasus;\r\n }\r\n \r\n .card {\r\n     border: 2px solid #000;\r\n"
+                },
+                {
+                    "date": 1687146526759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \r\n .navbar-brand {\r\n     padding-left: 10px;\r\n     font-weight: bold;\r\n-    font-family: Pegasus;\r\n+    font-family: Lithograph;\r\n }\r\n \r\n .card {\r\n     border: 2px solid #000;\r\n"
+                },
+                {
+                    "date": 1687146552257,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \r\n .navbar-brand {\r\n     padding-left: 10px;\r\n     font-weight: bold;\r\n-    font-family: Lithograph;\r\n+    font-family: Bazooka;\r\n }\r\n \r\n .card {\r\n     border: 2px solid #000;\r\n"
+                },
+                {
+                    "date": 1687146594153,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \r\n .navbar-brand {\r\n     padding-left: 10px;\r\n     font-weight: bold;\r\n-    font-family: Bazooka;\r\n+    font-family: cursive;\r\n }\r\n \r\n .card {\r\n     border: 2px solid #000;\r\n"
+                },
+                {
+                    "date": 1687146617107,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \r\n .navbar-brand {\r\n     padding-left: 10px;\r\n     font-weight: bold;\r\n-    font-family: cursive;\r\n+    font-family: fantasy;\r\n }\r\n \r\n .card {\r\n     border: 2px solid #000;\r\n"
+                },
+                {
+                    "date": 1687146653381,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \r\n .navbar-brand {\r\n     padding-left: 10px;\r\n     font-weight: bold;\r\n-    font-family: fantasy;\r\n+    font-family: Baskerville;\r\n }\r\n \r\n .card {\r\n     border: 2px solid #000;\r\n"
+                },
+                {
+                    "date": 1687146698966,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \r\n .navbar-brand {\r\n     padding-left: 10px;\r\n     font-weight: bold;\r\n-    font-family: Baskerville;\r\n+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;\r\n }\r\n \r\n .card {\r\n     border: 2px solid #000;\r\n"
                 }
             ],
             "date": 1687098568876,
