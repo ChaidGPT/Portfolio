@@ -13,12 +13,11 @@
 .navbar-brand .small-line {
     font-size: small;
     padding-left: 15px;
-    font-weight: bold;
-    font-family: initial;
+    font-weight: normal;
 }
 
 .underline-text {
-    text-decoration: underline;
+    text-decoration: underline, overline;
 }
 
 .card {

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 59,
+            "activePatchIndex": 74,
             "patches": [
                 {
                     "date": 1687098568876,
@@ -244,6 +244,66 @@
                 {
                     "date": 1687146698966,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \r\n .navbar-brand {\r\n     padding-left: 10px;\r\n     font-weight: bold;\r\n-    font-family: Baskerville;\r\n+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;\r\n }\r\n \r\n .card {\r\n     border: 2px solid #000;\r\n"
+                },
+                {
+                    "date": 1687149079975,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,12 @@\n     font-weight: bold;\r\n     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;\r\n }\r\n \r\n+.navbar-brand .small-line {\r\n+    font-size: small;\r\n+}\r\n+\r\n .card {\r\n     border: 2px solid #000;\r\n     width: 300px;\r\n     margin: 5px;\r\n"
+                },
+                {
+                    "date": 1687149103758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n .navbar-brand {\r\n     padding-left: 10px;\r\n     font-weight: bold;\r\n     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;\r\n+    font-size: medium;\r\n }\r\n \r\n .navbar-brand .small-line {\r\n     font-size: small;\r\n"
+                },
+                {
+                    "date": 1687149119706,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n .navbar-brand {\r\n     padding-left: 10px;\r\n     font-weight: bold;\r\n     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;\r\n-    font-size: medium;\r\n+    font-size: larger;\r\n }\r\n \r\n .navbar-brand .small-line {\r\n     font-size: small;\r\n"
+                },
+                {
+                    "date": 1687149142220,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n .navbar-brand {\r\n     padding-left: 10px;\r\n     font-weight: bold;\r\n     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;\r\n-    font-size: larger;\r\n+    font-size: x-large;\r\n }\r\n \r\n .navbar-brand .small-line {\r\n     font-size: small;\r\n"
+                },
+                {
+                    "date": 1687149158949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n }\r\n \r\n .navbar-brand .small-line {\r\n     font-size: small;\r\n+    padding-left: 10px;\r\n }\r\n \r\n .card {\r\n     border: 2px solid #000;\r\n"
+                },
+                {
+                    "date": 1687149172548,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n }\r\n \r\n .navbar-brand .small-line {\r\n     font-size: small;\r\n-    padding-left: 10px;\r\n+    padding-left: 15px;\r\n }\r\n \r\n .card {\r\n     border: 2px solid #000;\r\n"
+                },
+                {
+                    "date": 1687149336119,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n \r\n .navbar-brand .small-line {\r\n     font-size: small;\r\n     padding-left: 15px;\r\n+    font-weight: normal;\r\n }\r\n \r\n .card {\r\n     border: 2px solid #000;\r\n"
+                },
+                {
+                    "date": 1687149489159,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,12 @@\n     padding-left: 15px;\r\n     font-weight: normal;\r\n }\r\n \r\n+.underline-text {\r\n+    text-decoration: underline;\r\n+}\r\n+\r\n .card {\r\n     border: 2px solid #000;\r\n     width: 300px;\r\n     margin: 5px;\r\n"
+                },
+                {
+                    "date": 1687149507110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     font-weight: normal;\r\n }\r\n \r\n .underline-text {\r\n-    text-decoration: underline;\r\n+    text-decoration: underline, overline;\r\n }\r\n \r\n .card {\r\n     border: 2px solid #000;\r\n"
+                },
+                {
+                    "date": 1687149531636,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,10 @@\n     font-weight: normal;\r\n }\r\n \r\n .underline-text {\r\n-    text-decoration: underline, overline;\r\n+    text-decoration: underline;\r\n+    text-decoration: overline;\r\n }\r\n \r\n .card {\r\n     border: 2px solid #000;\r\n"
+                },
+                {
+                    "date": 1687149555322,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,13 +13,13 @@\n .navbar-brand .small-line {\r\n     font-size: small;\r\n     padding-left: 15px;\r\n     font-weight: normal;\r\n+    font-family: 'Courier New', Courier, monospace;\r\n }\r\n \r\n .underline-text {\r\n     text-decoration: underline;\r\n-    text-decoration: overline;\r\n }\r\n \r\n .card {\r\n     border: 2px solid #000;\r\n"
+                },
+                {
+                    "date": 1687149579794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n .navbar-brand .small-line {\r\n     font-size: small;\r\n     padding-left: 15px;\r\n     font-weight: normal;\r\n-    font-family: 'Courier New', Courier, monospace;\r\n+    font-family:'Times New Roman', Times, serif\r\n }\r\n \r\n .underline-text {\r\n     text-decoration: underline;\r\n"
+                },
+                {
+                    "date": 1687149638037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n .navbar-brand .small-line {\r\n     font-size: small;\r\n     padding-left: 15px;\r\n     font-weight: normal;\r\n-    font-family:'Times New Roman', Times, serif\r\n+    font-family: Cascade;\r\n }\r\n \r\n .underline-text {\r\n     text-decoration: underline;\r\n"
+                },
+                {
+                    "date": 1687149695893,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n .navbar-brand .small-line {\r\n     font-size: small;\r\n     padding-left: 15px;\r\n     font-weight: normal;\r\n-    font-family: Cascade;\r\n+    font-family: initial;\r\n }\r\n \r\n .underline-text {\r\n     text-decoration: underline;\r\n"
+                },
+                {
+                    "date": 1687149714830,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \r\n .navbar-brand .small-line {\r\n     font-size: small;\r\n     padding-left: 15px;\r\n-    font-weight: normal;\r\n+    font-weight: bold;\r\n     font-family: initial;\r\n }\r\n \r\n .underline-text {\r\n"
                 }
             ],
             "date": 1687098568876,

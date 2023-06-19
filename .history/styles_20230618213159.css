@@ -7,18 +7,11 @@
     padding-left: 10px;
     font-weight: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: x-large;
+    font-size: larger;
 }
 
 .navbar-brand .small-line {
     font-size: small;
-    padding-left: 15px;
-    font-weight: bold;
-    font-family: initial;
-}
-
-.underline-text {
-    text-decoration: underline;
 }
 
 .card {
