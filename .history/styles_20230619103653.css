@@ -1,6 +1,7 @@
 .navbar-custom {
     background-color: #00ABE4;
     font-weight: bold;
+    border-bottom: 1px solid #000;
 }
 
 .navbar-brand {
@@ -26,11 +27,6 @@
     width: 300px;
     margin: 5px;
     /* min-width: 280px; */
-}
-
-.card-body .card-subtitle {
-    text-decoration: none !important;
-    font-weight:lighter;
 }
 
 .card .card-description {

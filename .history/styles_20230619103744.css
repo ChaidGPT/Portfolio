@@ -3,6 +3,10 @@
     font-weight: bold;
 }
 
+.navbar {
+    border-bottom: 1px solid #000;
+}
+
 .navbar-brand {
     padding-left: 10px;
     font-weight: bold;
@@ -26,11 +30,6 @@
     width: 300px;
     margin: 5px;
     /* min-width: 280px; */
-}
-
-.card-body .card-subtitle {
-    text-decoration: none !important;
-    font-weight:lighter;
 }
 
 .card .card-description {

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 82,
+            "activePatchIndex": 91,
             "patches": [
                 {
                     "date": 1687098568876,
@@ -336,6 +336,42 @@
                 {
                     "date": 1687192743154,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,7 @@\n .navbar-custom {\r\n     background-color: #00ABE4;\r\n     font-weight: bold;\r\n-    padding-bottom: 10px;\r\n }\r\n \r\n .navbar-brand {\r\n     padding-left: 10px;\r\n@@ -21,12 +20,8 @@\n .underline-text {\r\n     text-decoration: underline;\r\n }\r\n \r\n-.header {\r\n-    \r\n-}\r\n-\r\n .card {\r\n     border: 2px solid #000;\r\n     width: 300px;\r\n     margin: 5px;\r\n"
+                },
+                {
+                    "date": 1687196213838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n .navbar-custom {\r\n     background-color: #00ABE4;\r\n     font-weight: bold;\r\n+    border-bottom: 1px solid #000;\r\n }\r\n \r\n .navbar-brand {\r\n     padding-left: 10px;\r\n"
+                },
+                {
+                    "date": 1687196264437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,10 @@\n .navbar-custom {\r\n     background-color: #00ABE4;\r\n     font-weight: bold;\r\n+}\r\n+\r\n+.navbar {\r\n     border-bottom: 1px solid #000;\r\n }\r\n \r\n .navbar-brand {\r\n"
+                },
+                {
+                    "date": 1687196303607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     background-color: #00ABE4;\r\n     font-weight: bold;\r\n }\r\n \r\n-.navbar {\r\n+#mainNav {\r\n     border-bottom: 1px solid #000;\r\n }\r\n \r\n .navbar-brand {\r\n"
+                },
+                {
+                    "date": 1687196314939,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,12 +2,8 @@\n     background-color: #00ABE4;\r\n     font-weight: bold;\r\n }\r\n \r\n-#mainNav {\r\n-    border-bottom: 1px solid #000;\r\n-}\r\n-\r\n .navbar-brand {\r\n     padding-left: 10px;\r\n     font-weight: bold;\r\n     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;\r\n"
+                },
+                {
+                    "date": 1687209371515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,12 @@\n     margin: 5px;\r\n     /* min-width: 280px; */\r\n }\r\n \r\n+.card-subtitle {\r\n+    text-decoration: none;\r\n+}\r\n+\r\n .card .card-description {\r\n     position: absolute;\r\n     top: 0;\r\n     left: 0;\r\n"
+                },
+                {
+                    "date": 1687209928951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n     /* min-width: 280px; */\r\n }\r\n \r\n .card-subtitle {\r\n-    text-decoration: none;\r\n+    text-decoration: none !important;\r\n }\r\n \r\n .card .card-description {\r\n     position: absolute;\r\n"
+                },
+                {
+                    "date": 1687210006980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n     margin: 5px;\r\n     /* min-width: 280px; */\r\n }\r\n \r\n-.card-subtitle {\r\n+.card-body .card-subtitle {\r\n     text-decoration: none !important;\r\n }\r\n \r\n .card .card-description {\r\n"
+                },
+                {
+                    "date": 1687210033413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,8 +29,9 @@\n }\r\n \r\n .card-body .card-subtitle {\r\n     text-decoration: none !important;\r\n+    font-weight: normal;\r\n }\r\n \r\n .card .card-description {\r\n     position: absolute;\r\n"
+                },
+                {
+                    "date": 1687210052584,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n }\r\n \r\n .card-body .card-subtitle {\r\n     text-decoration: none !important;\r\n-    font-weight: normal;\r\n+    font-weight:lighter;\r\n }\r\n \r\n .card .card-description {\r\n     position: absolute;\r\n"
                 }
             ],
             "date": 1687098568876,

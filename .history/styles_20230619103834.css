@@ -28,11 +28,6 @@
     /* min-width: 280px; */
 }
 
-.card-body .card-subtitle {
-    text-decoration: none !important;
-    font-weight:lighter;
-}
-
 .card .card-description {
     position: absolute;
     top: 0;

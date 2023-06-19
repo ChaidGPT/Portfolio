@@ -30,7 +30,7 @@
 
 .card-body .card-subtitle {
     text-decoration: none !important;
-    font-weight:lighter;
+    font-weight: normal;
 }
 
 .card .card-description {
