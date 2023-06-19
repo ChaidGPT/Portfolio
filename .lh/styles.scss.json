@@ -1,0 +1,18 @@
+{
+    "sourceFile": "styles.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1687143455279,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1687143455279,
+            "name": "Commit-0",
+            "content": ".navbar-custom {\r\n    background-color: #00ABE4;\r\n    font-weight: bold;\r\n}\r\n\r\n.card {\r\n    border: 2px solid #000;\r\n    width: 300px;\r\n    margin: 5px;\r\n    /* min-width: 280px; */\r\n}\r\n\r\n.card .card-description {\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    opacity: 0;\r\n    transition: opacity 0.3s;\r\n    padding: 10px;\r\n    background-color: rgba(0, 0, 0, 0.7);\r\n    color: #fff;\r\n}\r\n\r\n.card:hover .card-description {\r\n    opacity: 1;\r\n}\r\n\r\nbody {\r\n    background-color: #E9F1FA;\r\n    padding-top: 70px;\r\n    /* padding-bottom: 50px; */\r\n}\r\n\r\n#section1 {\r\n    margin-bottom: 50px;\r\n}\r\n\r\n#section2 {\r\n    margin-bottom: 50px;\r\n}\r\n\r\n#section3 {\r\n    margin-bottom: 20px;\r\n}\r\n\r\nh2 {\r\n    margin-bottom: 10px;\r\n}\r\n\r\n.footer {\r\n    background-color: #00ABE4;\r\n    padding-top: 5px;\r\n    padding-bottom: 5px;\r\n    \r\n}"
+        }
+    ]
+}
