@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 91,
+            "activePatchIndex": 94,
             "patches": [
                 {
                     "date": 1687098568876,
@@ -372,6 +372,18 @@
                 {
                     "date": 1687210052584,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n }\r\n \r\n .card-body .card-subtitle {\r\n     text-decoration: none !important;\r\n-    font-weight: normal;\r\n+    font-weight:lighter;\r\n }\r\n \r\n .card .card-description {\r\n     position: absolute;\r\n"
+                },
+                {
+                    "date": 1687272355932,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \r\n .navbar-brand {\r\n     padding-left: 10px;\r\n     font-weight: bold;\r\n-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;\r\n+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */\r\n     font-size: x-large;\r\n }\r\n \r\n .navbar-brand .small-line {\r\n"
+                },
+                {
+                    "date": 1687272386137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n     padding-left: 10px;\r\n     font-weight: bold;\r\n     /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */\r\n     font-size: x-large;\r\n+    text-decoration: none;\r\n }\r\n \r\n .navbar-brand .small-line {\r\n     font-size: small;\r\n"
+                },
+                {
+                    "date": 1687272427629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     font-family: initial;\r\n }\r\n \r\n .underline-text {\r\n-    text-decoration: underline;\r\n+    /* text-decoration: underline; */\r\n }\r\n \r\n .card {\r\n     border: 2px solid #000;\r\n"
                 }
             ],
             "date": 1687098568876,
