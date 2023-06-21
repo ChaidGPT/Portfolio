@@ -105,6 +105,8 @@ h2 {
   }
 
   .Random-fact {
+    /* margin-top: 0;
+    margin-left: 20; */
     flex-grow: 1;
     text-align: center;
   }

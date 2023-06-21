@@ -94,17 +94,12 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    align-items: center;
-    text-align: center;
   }
 
   .factButton .btn {
-    margin-right: 5px;
-    align-self: flex-start;
-    
+    margin-right: 10px;
   }
 
-  .Random-fact {
-    flex-grow: 1;
-    text-align: center;
+  .facts {
+    margin-top: 0;
   }

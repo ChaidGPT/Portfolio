@@ -89,22 +89,6 @@ h2 {
     background-color: #00ABE4;
     padding: 10px;
     margin-top: 10px;
-    border: 1px solid black; 
-    border-radius: 15px; 
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .factButton .btn {
-    margin-right: 5px;
-    align-self: flex-start;
-    
-  }
-
-  .Random-fact {
-    flex-grow: 1;
-    text-align: center;
+    border: 1px solid black; /* Add a border for the rectangle appearance */
+    border-radius: 10; /* Remove the border-radius property */
   }

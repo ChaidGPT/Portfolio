@@ -88,7 +88,7 @@ h2 {
 .chad-facts {
     background-color: #00ABE4;
     padding: 10px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     border: 1px solid black; 
     border-radius: 15px; 
     display: flex;
@@ -105,6 +105,8 @@ h2 {
   }
 
   .Random-fact {
+    margin-top: 0;
+    margin-left: 20;
     flex-grow: 1;
     text-align: center;
   }

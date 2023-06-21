@@ -100,11 +100,12 @@ h2 {
 
   .factButton .btn {
     margin-right: 5px;
-    align-self: flex-start;
     
   }
 
   .Random-fact {
+    margin-top: 0;
+    margin-left: 20;
     flex-grow: 1;
     text-align: center;
   }

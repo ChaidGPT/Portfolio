@@ -1,0 +1,22 @@
+{
+    "sourceFile": "script.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1687359507630,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1687359726205,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +0,0 @@\n-var sentences = [\r\n-    \"Sentence 1\",\r\n-    \"Sentence 2\",\r\n-    \"Sentence 3\",\r\n-    // Add more sentences to the array as needed\r\n-  ];\r\n-\r\n-  function getRandomSentence() {\r\n-    var randomIndex = Math.floor(Math.random() * sentences.length);\r\n-    return sentences[randomIndex];\r\n-  }\r\n-\r\n-  document.getElementById(\"factButton\").addEventListener(\"click\", function() {\r\n-    var randomSentence = getRandomSentence();\r\n-    document.getElementById(\"facts\").textContent = randomSentence;\r\n-  });\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1687359507630,
+            "name": "Commit-0",
+            "content": "var sentences = [\r\n    \"Sentence 1\",\r\n    \"Sentence 2\",\r\n    \"Sentence 3\",\r\n    // Add more sentences to the array as needed\r\n  ];\r\n\r\n  function getRandomSentence() {\r\n    var randomIndex = Math.floor(Math.random() * sentences.length);\r\n    return sentences[randomIndex];\r\n  }\r\n\r\n  document.getElementById(\"factButton\").addEventListener(\"click\", function() {\r\n    var randomSentence = getRandomSentence();\r\n    document.getElementById(\"facts\").textContent = randomSentence;\r\n  });"
+        }
+    ]
+}
