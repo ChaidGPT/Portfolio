@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 121,
+            "activePatchIndex": 123,
             "patches": [
                 {
                     "date": 1687098568876,
@@ -492,6 +492,14 @@
                 {
                     "date": 1687386383960,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,9 +85,9 @@\n     margin-top: 10px;\r\n }\r\n \r\n .chad-facts {\r\n-    background-color: #00ABE4;\r\n+    /* background-color: #00ABE4; */\r\n     padding: 10px;\r\n     margin-top: 10px;\r\n     /* border: 1px solid black;  */\r\n     border-radius: 15px; \r\n"
+                },
+                {
+                    "date": 1687396910642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,12 +85,10 @@\n     margin-top: 10px;\r\n }\r\n \r\n .chad-facts {\r\n-    /* background-color: #00ABE4; */\r\n     padding: 10px;\r\n     margin-top: 10px;\r\n-    /* border: 1px solid black;  */\r\n     border-radius: 15px; \r\n     display: flex;\r\n     flex-wrap: wrap;\r\n     align-items: center;\r\n"
+                },
+                {
+                    "date": 1687396922583,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,9 +77,8 @@\n     background-color: #00ABE4;\r\n     padding-top: 5px;\r\n     padding-bottom: 5px;\r\n     margin-top: 10px;\r\n-    \r\n }\r\n \r\n .btn {\r\n     margin-top: 10px;\r\n"
                 }
             ],
             "date": 1687098568876,
