@@ -39,6 +39,10 @@
     height: auto;
 }
 
+/* .title {
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+} */
+
 .btn-container {
     max-width: relative;
     z-index: 1;

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 134,
+            "activePatchIndex": 138,
             "patches": [
                 {
                     "date": 1687098568876,
@@ -544,6 +544,22 @@
                 {
                     "date": 1687748206761,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,8 +41,9 @@\n \r\n .btn-container {\r\n     max-width: relative;\r\n     z-index: 1;\r\n+    padding-bottom: 10px;\r\n }\r\n \r\n .img-fluid {\r\n     max-width: 100%;\r\n"
+                },
+                {
+                    "date": 1687801614109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,8 +38,12 @@\n     width: 100%;\r\n     height: auto;\r\n }\r\n \r\n+.title {\r\n+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);\r\n+}\r\n+\r\n .btn-container {\r\n     max-width: relative;\r\n     z-index: 1;\r\n     padding-bottom: 10px;\r\n"
+                },
+                {
+                    "date": 1687801651062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n     height: auto;\r\n }\r\n \r\n .title {\r\n-    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);\r\n+    text-shadow: 5px 5px 10px rgba(0,0,0,0.5);\r\n }\r\n \r\n .btn-container {\r\n     max-width: relative;\r\n"
+                },
+                {
+                    "date": 1687801841256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n     height: auto;\r\n }\r\n \r\n .title {\r\n-    text-shadow: 5px 5px 10px rgba(0,0,0,0.5);\r\n+    text-shadow: 5px 5px 5px rgba(0,0,0,0.5);\r\n }\r\n \r\n .btn-container {\r\n     max-width: relative;\r\n"
+                },
+                {
+                    "date": 1687801931313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,11 +38,11 @@\n     width: 100%;\r\n     height: auto;\r\n }\r\n \r\n-.title {\r\n+/* .title {\r\n     text-shadow: 5px 5px 5px rgba(0,0,0,0.5);\r\n-}\r\n+} */\r\n \r\n .btn-container {\r\n     max-width: relative;\r\n     z-index: 1;\r\n"
                 }
             ],
             "date": 1687098568876,
