@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 153,
+            "activePatchIndex": 154,
             "patches": [
                 {
                     "date": 1687097901153,
@@ -620,6 +620,10 @@
                 {
                     "date": 1687787575900,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,9 +87,9 @@\n                 <h2>My Projects</h2>\r\n                 <div class=\"container\">\r\n                     <div class=\"row\">\r\n                       <div class=\"col-12 col-md-6 col-lg-4\">\r\n-                        <a class=\"card\">\r\n+                        <a href=\"SuiteCareerCodeExamples.html\" target=\"_blank\" class=\"card\">\r\n                           <img src=\"images/SuiteCareerLogo.png\" class=\"card-img-top\" alt=\"Suite Career Logo\">\r\n                           <div class=\"card-body\">\r\n                             <h5 class=\"card-title\">Suite Career</h5>\r\n                             <p class=\"card-subtitle\">Web Design/Developing</p>\r\n@@ -126,12 +126,10 @@\n                             <p class=\"card-description\">The Vibe Check company really dislikes its customers. This \"help\" website takes information from the user and turns it around on them. Built with HTML, CSS, and JavaScript.</p>                                \r\n                           </div>\r\n                         </a>\r\n                       </div>\r\n-                      \r\n                     </div>\r\n                   </div>\r\n-                  \r\n             </div>  \r\n             <!-- Education section -->\r\n             <div id=\"section3\">\r\n                 <div class=\"container\">\r\n"
+                },
+                {
+                    "date": 1687794502801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -145,13 +145,13 @@\n                         </div>\r\n                         <div class=\"col-md-6\">\r\n                             <h2 class=\"text-md-start\">Certificates</h2>\r\n                             <p><a href=\"https://www.cascadia.edu/programs/certificate/documents/2022/2022-2023%20Cert%20WEB-%20Computer%20Programming%20Foundations%205.30.22.pdf\" target=\"_blank\" style=\"font-weight: bold;\">Computer Programming Foundations</a></p>\r\n-                            <p>Date</p>\r\n+                            <p>Cascadia College - 6/2023</p>\r\n                             <p><a href=\"https://www.cascadia.edu/programs/certificate/documents/2022/2022-2023%20Certificate%20WEB-%20JavaScript%20Programming%205.30.22.pdf\" target=\"_blank\" style=\"font-weight: bold;\">JavaScript Programming</a></p>\r\n-                            <p>Date</p>\r\n+                            <p>Cascadia College - 3/2023</p>\r\n                             <p><a href=\"https://www.cascadia.edu/programs/certificate/documents/2022/2022-2023%20Certificate%20WEB-%20Web%20Foundations%205.30.22.pdf\" target=\"_blank\" style=\"font-weight: bold;\">Web Foundations</a></p>\r\n-                            <p>Date</p>\r\n+                            <p>Cascadia College - 6/2023</p>\r\n                         </div>\r\n                     </div>\r\n                 </div>\r\n             </div>                   \r\n"
                 }
             ],
             "date": 1687097901153,
