@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 147,
+            "activePatchIndex": 149,
             "patches": [
                 {
                     "date": 1687097901153,
@@ -596,6 +596,14 @@
                 {
                     "date": 1687745077899,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,10 +52,12 @@\n             <div id=\"section1\">\r\n                 <div class=\"container\">\r\n                     <div class=\"row\">\r\n                         <div class=\"col-md-4\">\r\n+                          <div class=\"profile-picture\">\r\n                             <img src=\"images/profilePicture.jpg\" alt=\"Chad Oswald's Headshot\" class=\"img-fluid rounded-circle\" style=\"max-width: 300px;\">\r\n-                            <div class=\"container\">\r\n+                          </div>\r\n+                            <div class=\"btn-container\">\r\n                                 <a class=\"btn btn-primary\" href=\"mailto:chadloswald@gmail.com\" role=\"button\">\r\n                                     <i class=\"fas fa-envelope\"></i> Email\r\n                                 </a>\r\n                                 <a class=\"btn btn-primary\" href=\"https://www.linkedin.com/in/chad-oswald-994a8b1b3/\" target=\"_blank\" role=\"button\">\r\n"
+                },
+                {
+                    "date": 1687746051269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -115,18 +115,18 @@\n                             <p class=\"card-description\">The Vibe Check company really dislikes its customers. This \"help\" website takes information from the user and turns it around on them. Built with HTML, CSS, and JavaScript.</p>                                \r\n                           </div>\r\n                         </a>\r\n                       </div>\r\n-                      <div class=\"col-12 col-md-6 col-lg-4\">\r\n+                      <!-- <div class=\"col-12 col-md-6 col-lg-4\">\r\n                         <a class=\"card\">\r\n                           <img src=\"images/Placeholder.png\" class=\"card-img-top\" alt=\"Personal Portfolio Logo\">\r\n                           <div class=\"card-body\">\r\n                             <h5 class=\"card-title\">Personal Portfolio</h5>\r\n                             <p class=\"card-subtitle\">Web Design/Developing</p>\r\n                             <p class=\"card-description\">With performance and accessibility in mind, the responsive website that you are currently on gets the important information to you quickly. Built with HTML, CSS, and Bootstrap</p>                                \r\n                           </div>\r\n                         </a>\r\n-                      </div>\r\n+                      </div> -->\r\n                     </div>\r\n                   </div>\r\n                   \r\n             </div>  \r\n"
+                },
+                {
+                    "date": 1687746092985,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,8 +72,9 @@\n                 <h1>Hi! I'm Chad</h1>\r\n                 <p>I'm a web designer/developer based in the Greater Seattle Area, specializing in clean, mobile-first designs that prioritize simplicity. As a people person, I thrive on the opportunity to demystify technical concepts for those unfamiliar with them—a skill I attribute to my background in theatre, where I earned a degree from Central Washington University in 2014.</p>\r\n                 <p>When my cat, Izzy, isn't busy plotting her keyboard adventures, she assumes her role as the feline ambassador of The Cat and Kettle, a small herbal tea business that my spouse and I run.</p>\r\n                 <p>If you're seeking a passionate individual for solo or team web application projects, someone who not only builds but also enjoys the process, feel free to reach out. I'm excited to connect with you and explore new possibilities together!</p>\r\n+                <p>This website was made using HTML, CSS, and Bootstrap.</p>\r\n                 <button id=\"factButton\" class=\"btn btn-primary\">Random Chad Fact</button> \r\n                 <div class=\"chad-facts\">\r\n                   <p id=\"facts\" class=\"Random-fact\"></p>\r\n                 </div>\r\n"
                 }
             ],
             "date": 1687097901153,
