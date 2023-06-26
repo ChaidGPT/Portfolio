@@ -26,11 +26,11 @@
     position: relative;
     z-index: 1;
     display: inline-block;
-    border: 2px solid black;
+    border: 10px solid #8B4513;
     padding: 20px;
     border-radius: 50%;
     background: url(images/wood.jpg) center center / cover;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,o.5);
 }
 
 .profile-picture img {

@@ -26,7 +26,7 @@
     position: relative;
     z-index: 1;
     display: inline-block;
-    border: 2px solid black;
+    border: 5px solid black;
     padding: 20px;
     border-radius: 50%;
     background: url(images/wood.jpg) center center / cover;

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 124,
+            "activePatchIndex": 131,
             "patches": [
                 {
                     "date": 1687098568876,
@@ -504,6 +504,34 @@
                 {
                     "date": 1687745077374,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,23 @@\n .underline-text {\r\n     /* text-decoration: underline; */\r\n }\r\n \r\n+.profile-picture {\r\n+    position: relative;\r\n+    z-index: 1;\r\n+}\r\n+\r\n+.btn-container {\r\n+    max-width: relative;\r\n+    z-index: 1;\r\n+}\r\n+\r\n+.img-fluid {\r\n+    max-width: 100%;\r\n+    height: auto;\r\n+}\r\n+\r\n .card {\r\n     border: 2px solid #000;\r\n     width: 300px;\r\n     margin: 5px;\r\n@@ -103,5 +118,11 @@\n \r\n   .Random-fact {\r\n     flex-grow: 1;\r\n     text-align: center;\r\n+  }\r\n+\r\n+  @media (max-width: 767px) {\r\n+    .profile-picture {\r\n+        text-align: center;\r\n+    }\r\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687747409007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,10 +24,22 @@\n \r\n .profile-picture {\r\n     position: relative;\r\n     z-index: 1;\r\n+    display: inline-block;\r\n+    border: 10px solid #8B4513;\r\n+    padding: 20px;\r\n+    border-radius: 50%;\r\n+    background: url() center center / cover;\r\n+    box-shadow: 0 0 10px rgba(0,0,0,o.5);\r\n }\r\n \r\n+.profile-picture img {\r\n+    display: block;\r\n+    width: 100%;\r\n+    height: auto;\r\n+}\r\n+\r\n .btn-container {\r\n     max-width: relative;\r\n     z-index: 1;\r\n }\r\n"
+                },
+                {
+                    "date": 1687747508465,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n     display: inline-block;\r\n     border: 10px solid #8B4513;\r\n     padding: 20px;\r\n     border-radius: 50%;\r\n-    background: url() center center / cover;\r\n+    background: url(images/wood.jpg) center center / cover;\r\n     box-shadow: 0 0 10px rgba(0,0,0,o.5);\r\n }\r\n \r\n .profile-picture img {\r\n"
+                },
+                {
+                    "date": 1687747586936,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n     border: 10px solid #8B4513;\r\n     padding: 20px;\r\n     border-radius: 50%;\r\n     background: url(images/wood.jpg) center center / cover;\r\n-    box-shadow: 0 0 10px rgba(0,0,0,o.5);\r\n+    box-shadow: 0 0 10px rgba(0,0,0,0.5);\r\n }\r\n \r\n .profile-picture img {\r\n     display: block;\r\n"
+                },
+                {
+                    "date": 1687747611998,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n .profile-picture {\r\n     position: relative;\r\n     z-index: 1;\r\n     display: inline-block;\r\n-    border: 10px solid #8B4513;\r\n+    border: 5px solid #8B4513;\r\n     padding: 20px;\r\n     border-radius: 50%;\r\n     background: url(images/wood.jpg) center center / cover;\r\n     box-shadow: 0 0 10px rgba(0,0,0,0.5);\r\n"
+                },
+                {
+                    "date": 1687747629389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n .profile-picture {\r\n     position: relative;\r\n     z-index: 1;\r\n     display: inline-block;\r\n-    border: 5px solid #8B4513;\r\n+    border: 5px solid black;\r\n     padding: 20px;\r\n     border-radius: 50%;\r\n     background: url(images/wood.jpg) center center / cover;\r\n     box-shadow: 0 0 10px rgba(0,0,0,0.5);\r\n"
+                },
+                {
+                    "date": 1687747688071,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n     border: 5px solid black;\r\n     padding: 20px;\r\n     border-radius: 50%;\r\n     background: url(images/wood.jpg) center center / cover;\r\n-    box-shadow: 0 0 10px rgba(0,0,0,0.5);\r\n+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);\r\n }\r\n \r\n .profile-picture img {\r\n     display: block;\r\n"
+                },
+                {
+                    "date": 1687747799548,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n .profile-picture {\r\n     position: relative;\r\n     z-index: 1;\r\n     display: inline-block;\r\n-    border: 5px solid black;\r\n+    border: 2px solid black;\r\n     padding: 20px;\r\n     border-radius: 50%;\r\n     background: url(images/wood.jpg) center center / cover;\r\n     box-shadow: 5px 5px 10px rgba(0,0,0,0.5);\r\n"
                 }
             ],
             "date": 1687098568876,
