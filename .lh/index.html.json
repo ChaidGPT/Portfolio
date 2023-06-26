@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 146,
+            "activePatchIndex": 147,
             "patches": [
                 {
                     "date": 1687097901153,
@@ -592,6 +592,10 @@
                 {
                     "date": 1687744181676,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n             <div id=\"section1\">\r\n                 <div class=\"container\">\r\n                     <div class=\"row\">\r\n                         <div class=\"col-md-4\">\r\n-                            <img src=\"images/Placeholder.png\" alt=\"Chad Oswald's Headshot\" class=\"img-fluid rounded-circle\" style=\"max-width: 300px;\">\r\n+                            <img src=\"images/profilePicture.jpg\" alt=\"Chad Oswald's Headshot\" class=\"img-fluid rounded-circle\" style=\"max-width: 300px;\">\r\n                             <div class=\"container\">\r\n                                 <a class=\"btn btn-primary\" href=\"mailto:chadloswald@gmail.com\" role=\"button\">\r\n                                     <i class=\"fas fa-envelope\"></i> Email\r\n                                 </a>\r\n"
+                },
+                {
+                    "date": 1687745077899,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,10 +52,12 @@\n             <div id=\"section1\">\r\n                 <div class=\"container\">\r\n                     <div class=\"row\">\r\n                         <div class=\"col-md-4\">\r\n+                          <div class=\"profile-picture\">\r\n                             <img src=\"images/profilePicture.jpg\" alt=\"Chad Oswald's Headshot\" class=\"img-fluid rounded-circle\" style=\"max-width: 300px;\">\r\n-                            <div class=\"container\">\r\n+                          </div>\r\n+                            <div class=\"btn-container\">\r\n                                 <a class=\"btn btn-primary\" href=\"mailto:chadloswald@gmail.com\" role=\"button\">\r\n                                     <i class=\"fas fa-envelope\"></i> Email\r\n                                 </a>\r\n                                 <a class=\"btn btn-primary\" href=\"https://www.linkedin.com/in/chad-oswald-994a8b1b3/\" target=\"_blank\" role=\"button\">\r\n"
                 }
             ],
             "date": 1687097901153,

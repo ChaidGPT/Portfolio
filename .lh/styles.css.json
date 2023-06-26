@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 123,
+            "activePatchIndex": 124,
             "patches": [
                 {
                     "date": 1687098568876,
@@ -500,6 +500,10 @@
                 {
                     "date": 1687396922583,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,9 +77,8 @@\n     background-color: #00ABE4;\r\n     padding-top: 5px;\r\n     padding-bottom: 5px;\r\n     margin-top: 10px;\r\n-    \r\n }\r\n \r\n .btn {\r\n     margin-top: 10px;\r\n"
+                },
+                {
+                    "date": 1687745077374,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,23 @@\n .underline-text {\r\n     /* text-decoration: underline; */\r\n }\r\n \r\n+.profile-picture {\r\n+    position: relative;\r\n+    z-index: 1;\r\n+}\r\n+\r\n+.btn-container {\r\n+    max-width: relative;\r\n+    z-index: 1;\r\n+}\r\n+\r\n+.img-fluid {\r\n+    max-width: 100%;\r\n+    height: auto;\r\n+}\r\n+\r\n .card {\r\n     border: 2px solid #000;\r\n     width: 300px;\r\n     margin: 5px;\r\n@@ -103,5 +118,11 @@\n \r\n   .Random-fact {\r\n     flex-grow: 1;\r\n     text-align: center;\r\n+  }\r\n+\r\n+  @media (max-width: 767px) {\r\n+    .profile-picture {\r\n+        text-align: center;\r\n+    }\r\n   }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1687098568876,
