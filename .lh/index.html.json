@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 149,
+            "activePatchIndex": 150,
             "patches": [
                 {
                     "date": 1687097901153,
@@ -604,6 +604,10 @@
                 {
                     "date": 1687746092985,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,8 +72,9 @@\n                 <h1>Hi! I'm Chad</h1>\r\n                 <p>I'm a web designer/developer based in the Greater Seattle Area, specializing in clean, mobile-first designs that prioritize simplicity. As a people person, I thrive on the opportunity to demystify technical concepts for those unfamiliar with them—a skill I attribute to my background in theatre, where I earned a degree from Central Washington University in 2014.</p>\r\n                 <p>When my cat, Izzy, isn't busy plotting her keyboard adventures, she assumes her role as the feline ambassador of The Cat and Kettle, a small herbal tea business that my spouse and I run.</p>\r\n                 <p>If you're seeking a passionate individual for solo or team web application projects, someone who not only builds but also enjoys the process, feel free to reach out. I'm excited to connect with you and explore new possibilities together!</p>\r\n+                <p>This website was made using HTML, CSS, and Bootstrap.</p>\r\n                 <button id=\"factButton\" class=\"btn btn-primary\">Random Chad Fact</button> \r\n                 <div class=\"chad-facts\">\r\n                   <p id=\"facts\" class=\"Random-fact\"></p>\r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1687748172450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -157,9 +157,9 @@\n                 </div>\r\n             </div>                   \r\n             <!-- Contact section -->\r\n             <div id=\"section4\">\r\n-                <div class=\"container\">\r\n+                <div class=\"btn-container\">\r\n                 <h2>Contact Me</h2>\r\n                 <a class=\"btn btn-primary\" href=\"mailto:chadloswald@gmail.com\" role=\"button\">\r\n                     <i class=\"fas fa-envelope\"></i> Email\r\n                 </a>\r\n"
                 }
             ],
             "date": 1687097901153,
