@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 159,
+            "activePatchIndex": 161,
             "patches": [
                 {
                     "date": 1687097901153,
@@ -644,6 +644,14 @@
                 {
                     "date": 1688333857915,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n <html lang=\"en\">\r\n <head>\r\n     <meta charset=\"UTF-8\">\r\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n+    <link rel=\"icon\" href=\"images/favicon.png\" type=\"image/x-icon\">\r\n     <title>Chad Oswald's Portfolio</title>\r\n     <script src=\"js/bootstrap.min.js\"></script>\r\n     <script src=\"https://unpkg.com/react-popper/dist/index.umd.js\"></script>\r\n     <script src=\"script.js\"></script>\r\n"
+                },
+                {
+                    "date": 1688398382390,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -112,8 +112,18 @@\n                           </div>\r\n                         </a>\r\n                       </div>\r\n                       <div class=\"col-12 col-md-6 col-lg-4\">\r\n+                        <a href=\"https://chaidgpt.github.io/CKBatchHelper/\" target=\"_blank\" class=\"card\">\r\n+                          <img src=\"images/BatchHelperLogo.png\" class=\"card-img-top\" alt=\"The Cat and Kettle Batch Helper Logo\">\r\n+                          <div class=\"card-body\">\r\n+                            <h5 class=\"card-title\">The Cat and Kettle Batch Helper</h5>\r\n+                            <p class=\"card-subtitle\">Web Design/Developing</p>\r\n+                            <p class=\"card-description\">Introducing The Cat and Kettle Batch Helper, a user-friendly mobile web app designed to solve a common problem faced by The Cat and Kettle employees. It simplifies the calculation of precise ingredient amounts for 42 different herbal teas, eliminating errors and saving time. Just select a tea, enter the batch size, and get accurate measurements instantly. Built with HTML, CSS, Bootstrap, and JavaScript.</p>\r\n+                          </div>\r\n+                        </a>\r\n+                      </div>\r\n+                      <div class=\"col-12 col-md-6 col-lg-4\">\r\n                         <a href=\"https://chaidgpt.github.io/ChefNotes/\" target=\"_blank\" class=\"card\">\r\n                           <img src=\"images/ChefNotesLogo.png\" class=\"card-img-top\" alt=\"Chef Notes Logo\">\r\n                           <div class=\"card-body\">\r\n                             <h5 class=\"card-title\">Chef Notes</h5>\r\n"
+                },
+                {
+                    "date": 1688398838218,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -127,9 +127,9 @@\n                           <img src=\"images/ChefNotesLogo.png\" class=\"card-img-top\" alt=\"Chef Notes Logo\">\r\n                           <div class=\"card-body\">\r\n                             <h5 class=\"card-title\">Chef Notes</h5>\r\n                             <p class=\"card-subtitle\">Web Design/Developing</p>\r\n-                            <p class=\"card-description\">Locally save your recipes and email/print them while on the go. Built with HTML, CSS, and JavaScript.</p>\r\n+                            <p class=\"card-description\">Chef Notes is a simple, user-friendly web app for saving recipes on the go. Simply fill in the Name, Ingredients, and Directions forms, then click Save Recipe. Your recipes are beautifully displayed below. Save as many recipes as you like, and when you're ready, print or email them with ease. Built with HTML, CSS, and JavaScript.</p>\r\n                           </div>\r\n                         </a>\r\n                       </div>\r\n                       <div class=\"col-12 col-md-6 col-lg-4\">\r\n"
                 }
             ],
             "date": 1687097901153,
