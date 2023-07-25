@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
     <title>Chad Oswald's Portfolio</title>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
@@ -84,14 +86,15 @@
             </div>
             </div>
             </div>
-            <!-- Client Projects section -->
+            <!-- Projects section -->
             <div id="section2">
               <div class="title">
-                <h2>Client Projects</h2>
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapsibleContent">
+                  Projects
+                </button>
               </div>
-                <div class="container">
+                <div id="collapsibleContent" class="collapse">
                     <div class="row">
-                      <!-- ---------- -->
                       <div class="col-12 col-md-6 col-lg-4">
                         <a href="SuiteCareerCodeExamples.svg" target="_blank" class="card">
                           <img src="images/SuiteCareerLogo.png" class="card-img-top" alt="Suite Career Logo">
@@ -102,7 +105,6 @@
                           </div>
                         </a>
                       </div>
-                      <!-- ---------- -->
                       <div class="col-12 col-md-6 col-lg-4">
                         <a href="https://www.thecatandkettle.com/" target="_blank" class="card">
                           <img src="images/TheCatandKettle.jpg" class="card-img-top" alt="The Cat and Kettle Logo">
@@ -113,7 +115,6 @@
                           </div>
                         </a>
                       </div>
-                      <!-- ---------- -->
                       <div class="col-12 col-md-6 col-lg-4">
                         <a href="https://chaidgpt.github.io/CKBatchHelper/" target="_blank" class="card">
                           <img src="images/BatchHelperLogo.png" class="card-img-top" alt="The Cat and Kettle Batch Helper Logo">
@@ -124,18 +125,6 @@
                           </div>
                         </a>
                       </div>
-                      <!-- ---------- -->
-                    </div>
-                  </div>
-            </div>  
-            <!-- Personal Projects section -->
-            <div>
-              <div class="title">
-                <h2>Personal Projects</h2>
-              </div>
-                <div class="container">
-                    <div class="row">
-                      <!-- ---------- -->
                       <div class="col-12 col-md-6 col-lg-4">
                         <a href="https://chaidgpt.github.io/ChefNotes/" target="_blank" class="card">
                           <img src="images/ChefNotesLogo.png" class="card-img-top" alt="Chef Notes Logo">
@@ -146,7 +135,6 @@
                           </div>
                         </a>
                       </div>
-                      <!-- ---------- -->
                       <div class="col-12 col-md-6 col-lg-4">
                         <a href="https://chaidgpt.github.io/Dis-Service/" target="_blank" class="card">
                           <img src="images/VibeCheckLogo.jpeg" class="card-img-top" alt="Vibe Check Logo">
@@ -157,7 +145,6 @@
                           </div>
                         </a>
                       </div>
-                      <!-- ---------- -->
                     </div>
                   </div>
             </div>  

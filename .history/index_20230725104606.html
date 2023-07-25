@@ -10,82 +10,91 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Additional styles (if any) can be placed here */
+    </style>
 </head>
 <body data-spy="scroll" data-target="#mainNav">
-    <div class="container">
-        <header>
-            <!-- Navbar -->
-            <nav id="mainNav" class="navbar navbar-expand-lg navbar-custom fixed-top">
-                <div class="navbar-brand d-flex align-items-center">
-                  <span class="underline-text">Chad Oswald</span>
-                  <div class="ms-2 d-flex flex-column align-items-center">
+    <div class="svg-container">
+        <svg viewBox="0 0 800 400" class="svg">
+            <path id="curve" fill="#50c6d8" d="M 800 300 Q 400 350 0 300 L 0 0 L 800 0 L 800 300 Z"></path>
+        </svg>
+    </div>
+
+    <!-- Introduction section -->
+    <div id="section1" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="profile-picture">
+                        <img src="images/profilePicture.jpg" alt="Chad Oswald's Headshot" class="img-fluid rounded-circle" style="max-width: 300px;">
+                    </div>
+                    <div class="btn-container">
+                        <a class="btn btn-primary" href="mailto:chadloswald@gmail.com" role="button">
+                            <i class="fas fa-envelope"></i> Email
+                        </a>
+                        <a class="btn btn-primary" href="https://www.linkedin.com/in/chad-oswald-994a8b1b3/" target="_blank" role="button">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a class="btn btn-primary" href="https://github.com/ChaidGPT" target="_blank" role="button">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="title">
+                        <h1>Hi! I'm Chad</h1>
+                    </div>
+                    <p>I'm a web designer/developer based in the Greater Seattle Area, specializing in clean, mobile-first designs that prioritize simplicity. As a people person, I thrive on the opportunity to demystify technical concepts for those unfamiliar with them—a skill I attribute to my background in theatre, where I earned a degree from Central Washington University in 2014.</p>
+                    <p>When my cat, Izzy, isn't busy plotting her keyboard adventures, she assumes her role as the feline ambassador of The Cat and Kettle, a small herbal tea business that my spouse and I run.</p>
+                    <p>If you're seeking a passionate individual for solo or team web application projects, someone who not only builds but also enjoys the process, feel free to reach out. I'm excited to connect with you and explore new possibilities together!</p>
+                    <p>This website was made using HTML, CSS, and Bootstrap.</p>
+                    <button id="factButton" class="btn btn-primary">Random Chad Fact</button>
+                    <div class="chad-facts">
+                        <p id="facts" class="Random-fact"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar section -->
+    <header style="background-color: transparent;">
+        <nav id="mainNav" class="navbar navbar-expand-lg navbar-custom fixed-top">
+            <div class="navbar-brand d-flex align-items-center">
+                <span class="underline-text">Chad Oswald</span>
+                <div class="ms-2 d-flex flex-column align-items-center">
                     <span class="small-line d-block">Web Developer | Web Designer</span>
                     <span class="small-line d-block">Herbal Tea Maker</span>
-                  </div>
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                  <ul class="navbar-nav">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link" href="#section1">About Me</a>
+                        <a class="nav-link" href="#section1">About Me</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#section2">Projects</a>
+                        <a class="nav-link" href="#section2">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#section3">Education</a>
-                      </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#section4">Contact Me</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="Resume.html" target="_blank">Current Resume</a>
+                        <a class="nav-link" href="#section4">Contact Me</a>
                     </li>
-                  </ul>
-                </div>
-              </nav>                           
-          </header>          
+                    <li class="nav-item">
+                        <a class="nav-link" href="Resume.html" target="_blank">Current Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>         
         <main>
-            <!-- Introduction section -->
-            <div id="section1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                          <div class="profile-picture">
-                            <img src="images/profilePicture.jpg" alt="Chad Oswald's Headshot" class="img-fluid rounded-circle" style="max-width: 300px;">
-                          </div>
-                            <div class="btn-container">
-                                <a class="btn btn-primary" href="mailto:chadloswald@gmail.com" role="button">
-                                    <i class="fas fa-envelope"></i> Email
-                                </a>
-                                <a class="btn btn-primary" href="https://www.linkedin.com/in/chad-oswald-994a8b1b3/" target="_blank" role="button">
-                                    <i class="fab fa-linkedin"></i> LinkedIn
-                                </a>
-                                <a class="btn btn-primary" href="https://github.com/ChaidGPT" target="_blank" role="button">
-                                    <i class="fab fa-github"></i> GitHub
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-8">
-              <div class="title">
-                <h1>Hi! I'm Chad</h1>
-              </div>
-                <p>I'm a web designer/developer based in the Greater Seattle Area, specializing in clean, mobile-first designs that prioritize simplicity. As a people person, I thrive on the opportunity to demystify technical concepts for those unfamiliar with them—a skill I attribute to my background in theatre, where I earned a degree from Central Washington University in 2014.</p>
-                <p>When my cat, Izzy, isn't busy plotting her keyboard adventures, she assumes her role as the feline ambassador of The Cat and Kettle, a small herbal tea business that my spouse and I run.</p>
-                <p>If you're seeking a passionate individual for solo or team web application projects, someone who not only builds but also enjoys the process, feel free to reach out. I'm excited to connect with you and explore new possibilities together!</p>
-                <p>This website was made using HTML, CSS, and Bootstrap.</p>
-                <button id="factButton" class="btn btn-primary">Random Chad Fact</button> 
-                <div class="chad-facts">
-                  <p id="facts" class="Random-fact"></p>
-                </div>
-            </div>
-            </div>
-            </div>
-            </div>
             <!-- Client Projects section -->
-            <div id="section2">
+            <div id="section2" class="mt-5">
               <div class="title">
                 <h2>Client Projects</h2>
               </div>

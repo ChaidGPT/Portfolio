@@ -1,5 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-
 var sentences = [
     "Chad was born in North Dakota.",
     "Chad really enjoys the scent of tomato leaves.",
@@ -33,7 +31,3 @@ var sentences = [
     var randomSentence = getRandomSentence();
     document.getElementById("facts").textContent = randomSentence;
   });
-
-});
-
-  
