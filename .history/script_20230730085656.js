@@ -36,4 +36,16 @@ var sentences = [
 
 });
 
-  
+
+// Add an event listener to the "Help" button
+document.getElementById('izzyButton').addEventListener('click', function() {
+  // Show the custom modal and overlay
+  document.getElementById('customModal').style.display = 'block';
+  document.getElementById('overlay').style.display = 'block';
+});
+
+// Close the modal when clicking on the overlay
+document.getElementById('overlay').addEventListener('click', function() {
+  document.getElementById('customModal').style.display = 'none';
+  document.getElementById('overlay').style.display = 'none';
+}); 

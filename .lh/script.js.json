@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 9,
+            "activePatchIndex": 11,
             "patches": [
                 {
                     "date": 1687359507630,
@@ -44,6 +44,14 @@
                 {
                     "date": 1690308320752,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,43 +34,5 @@\n     document.getElementById(\"facts\").textContent = randomSentence;\r\n   });\r\n \r\n });\r\n-\r\n-\r\n-(function() {\r\n-    // Variables\r\n-    var $curve = document.getElementById(\"curve\");\r\n-    var last_known_scroll_position = 0;\r\n-    var defaultCurveValue = 350;\r\n-    var curveRate = 3;\r\n-    var ticking = false;\r\n-    var curveValue;\r\n-  \r\n-    // Handle the functionality\r\n-    function scrollEvent(scrollPos) {\r\n-      if (scrollPos >= 0 && scrollPos < defaultCurveValue) {\r\n-        curveValue = defaultCurveValue - parseFloat(scrollPos / curveRate);\r\n-        $curve.setAttribute(\r\n-          \"d\",\r\n-          \"M 800 300 Q 400 \" + curveValue + \" 0 300 L 0 0 L 800 0 L 800 300 Z\"\r\n-        );\r\n-      }\r\n-    }\r\n-  \r\n-    // Scroll Listener\r\n-    // https://developer.mozilla.org/en-US/docs/Web/Events/scroll\r\n-    window.addEventListener(\"scroll\", function(e) {\r\n-      last_known_scroll_position = window.scrollY;\r\n-  \r\n-      if (!ticking) {\r\n-        window.requestAnimationFrame(function() {\r\n-          scrollEvent(last_known_scroll_position);\r\n-          ticking = false;\r\n-        });\r\n-      }\r\n-  \r\n-      ticking = true;\r\n-    });\r\n-  })();\r\n-  \r\n   \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1690732616796,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,5 +34,18 @@\n     document.getElementById(\"facts\").textContent = randomSentence;\r\n   });\r\n \r\n });\r\n-  \n\\ No newline at end of file\n+\r\n+\r\n+// Add an event listener to the \"Help\" button\r\n+document.getElementById('izzyButton').addEventListener('click', function() {\r\n+  // Show the custom modal and overlay\r\n+  document.getElementById('customModal').style.display = 'block';\r\n+  document.getElementById('overlay').style.display = 'block';\r\n+});\r\n+\r\n+// Close the modal when clicking on the overlay\r\n+document.getElementById('overlay').addEventListener('click', function() {\r\n+  document.getElementById('customModal').style.display = 'none';\r\n+  document.getElementById('overlay').style.display = 'none';\r\n+}); \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1690732743992,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,17 +35,5 @@\n   });\r\n \r\n });\r\n \r\n-\r\n-// Add an event listener to the \"Help\" button\r\n-document.getElementById('izzyButton').addEventListener('click', function() {\r\n-  // Show the custom modal and overlay\r\n-  document.getElementById('customModal').style.display = 'block';\r\n-  document.getElementById('overlay').style.display = 'block';\r\n-});\r\n-\r\n-// Close the modal when clicking on the overlay\r\n-document.getElementById('overlay').addEventListener('click', function() {\r\n-  document.getElementById('customModal').style.display = 'none';\r\n-  document.getElementById('overlay').style.display = 'none';\r\n-}); \n\\ No newline at end of file\n+  \n\\ No newline at end of file\n"
                 }
             ],
             "date": 1687359507630,

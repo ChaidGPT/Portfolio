@@ -18,14 +18,6 @@
     font-family: initial;
 }
 
-.nav-link {
-    text-decoration: underline;
-}
-
-.nav-link:hover {
-    text-decoration: none;
-}
-
 .profile-picture {
     position: relative;
     z-index: 1;
