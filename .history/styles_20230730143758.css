@@ -1,15 +1,14 @@
 .navbar-custom {
     background-color: #00ABE4;
     font-weight: bold;
-    border-bottom: thick double rgba(2, 2, 2, 0.6);
 }
 
 .navbar-brand {
     padding-left: 10px;
     font-weight: bold;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     font-size: x-large;
     text-decoration: none;
-    border-bottom: #000;
 }
 
 .navbar-brand .small-line {
@@ -90,10 +89,9 @@
 }
 
 body {
-    background-color: #78EDBE;
+    /* background-color: #E9F1FA; */
     padding-top: 70px;
     background-image: url(images/background.jpeg);
-    background-repeat: no-repeat;
 }
 
 #section1 {

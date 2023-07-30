@@ -1,7 +1,8 @@
 .navbar-custom {
     background-color: #00ABE4;
     font-weight: bold;
-    border-bottom: thick double rgba(2, 2, 2, 0.6);
+    /* border-bottom: 1px solid #000000; */
+    border-bottom: 4mm ridge rgba(211, 220, 50, .6);
 }
 
 .navbar-brand {
